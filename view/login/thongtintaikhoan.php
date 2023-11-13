@@ -1,6 +1,5 @@
 <!-- END HEADER -->
 <main class="catalog  mb ">
-
     <div class="boxleft">
         <div class="box_title h5">Thông tin tài khoản</div>
         <div class="box_content">
@@ -30,9 +29,7 @@
                     <a class="btn btn-outline-danger" href="index.php?act=dangxuat">Đăng xuất</a>
                 </div>
             </form>
-
         </div>
-
     </div>
     <?php
     include "view/boxright.php";
