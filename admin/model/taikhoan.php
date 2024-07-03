@@ -24,12 +24,12 @@ function check_email($email)   {
 
 function update_taikhoan($id,$email,$user,$pass,$address,$tel)  {
     $sql = "UPDATE taikhoan 
-            SET email = '".$email."',
-            user = '".$user."',
-            pass = '".$pass."',
-            address = '".$address."',
-            tel = '".$tel."'  
-            WHERE id=" . $id;
+        SET email = '".$email."',
+        user = '".$user."',
+        pass = '".$pass."',
+        address = '".$address."',
+        tel = '".$tel."'  
+        WHERE id=" . $id;
     pdo_execute($sql);
 }
 

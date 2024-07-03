@@ -11,24 +11,24 @@
                 $hinh = $imgPath . $img;
 
                 echo '
-                            <div class="row">
-                                 <div class="col-6 spct">
-                                    <a><img class="img-fluid mx-auto" src="' . $hinh . '"/></a>
-                                </div>
-                                <div class="col-6">
-                                     <p class="fw-bold">Tên sản phẩm: ' . $name . '</p>                              
-                                    <p class="fw-bold">Giá: ' . $price . '$</p>                                 
-                                    <p>Lượt xem: ' . $luotXem . '</p>
-                                    <div style="font-size: 30px; cursor: pointer; color: yellow">
-                                        <span class="rating" id="star1">&#9733;</span>
-                                        <span class="rating" id="star2">&#9733;</span>
-                                        <span class="rating" id="star3">&#9733;</span>
-                                        <span class="rating" id="star4">&#9733;</span>
-                                        <span class="rating" id="star5">&#9733;</span>
-                                    </div>
-                                       <b><p id="result"></p></b>
-                                       <p>Mô tả: ' . $moTa . '</p>
-                                       '
+                    <div class="row">
+                            <div class="col-6 spct">
+                            <a><img class="img-fluid mx-auto" src="' . $hinh . '"/></a>
+                        </div>
+                        <div class="col-6">
+                                <p class="fw-bold">Tên sản phẩm: ' . $name . '</p>                              
+                            <p class="fw-bold">Giá: ' . $price . '$</p>                                 
+                            <p>Lượt xem: ' . $luotXem . '</p>
+                            <div style="font-size: 30px; cursor: pointer; color: yellow">
+                                <span class="rating" id="star1">&#9733;</span>
+                                <span class="rating" id="star2">&#9733;</span>
+                                <span class="rating" id="star3">&#9733;</span>
+                                <span class="rating" id="star4">&#9733;</span>
+                                <span class="rating" id="star5">&#9733;</span>
+                            </div>
+                                <b><p id="result"></p></b>
+                                <p>Mô tả: ' . $moTa . '</p>
+                    '
                 ?>
                 <form action=index.php?act=addtocart method="post" enctype="multipart/form-data">
                     <input type="hidden" name="id" id="" value="<?= $id ?>">
@@ -47,9 +47,9 @@
     </div>
     </div>
 
-    <div class="mb">
+        <div class="mb">
 
-    </div>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script>
             $(document).ready(function () {
